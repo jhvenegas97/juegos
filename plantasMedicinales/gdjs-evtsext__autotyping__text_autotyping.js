@@ -3,34 +3,38 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping = gdjs.evtsExt__AutoTyping__Text_AutoT
 
 /**
  * Behavior generated from Auto typing text
- * @class Text_AutoTyping
- * @extends gdjs.RuntimeBehavior
- * @constructor
  */
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping = function(runtimeScene, behaviorData, owner)
-{
-    gdjs.RuntimeBehavior.call(this, runtimeScene, behaviorData, owner);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping = class Text_AutoTyping extends gdjs.RuntimeBehavior {
+  constructor(runtimeScene, behaviorData, owner) {
+    super(runtimeScene, behaviorData, owner);
     this._runtimeScene = runtimeScene;
 
     this._onceTriggers = new gdjs.OnceTriggers();
     this._behaviorData = {};
     
     this._behaviorData.Interval = behaviorData.Interval !== undefined ? behaviorData.Interval : Number("0.05") || 0;
-};
+  }
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype = Object.create( gdjs.RuntimeBehavior.prototype );
-gdjs.registerBehavior("AutoTyping::Text_AutoTyping", gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping);
-
-// Hot-reload:
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.updateFromBehaviorData = function(oldBehaviorData, newBehaviorData) {
-
+  // Hot-reload:
+  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+    
     if (oldBehaviorData.Interval !== newBehaviorData.Interval)
-        this._behaviorData.Interval = newBehaviorData.Interval;
+      this._behaviorData.Interval = newBehaviorData.Interval;
 
     return true;
+  }
+
+  // Properties:
+  
+  _getInterval() {
+    return this._behaviorData.Interval !== undefined ? this._behaviorData.Interval : Number("0.05") || 0;
+  }
+  _setInterval(newValue) {
+    this._behaviorData.Interval = newValue;
+  }
 }
 
-// Properties:
+// Methods:
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext = {};
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1= [];
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects2= [];
@@ -113,10 +117,10 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0;
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8081636);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8680220);
 }
 }if (gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1[i].returnVariable(gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1[i].getVariables().get("_write_index")).setNumber(0);
 }
@@ -136,7 +140,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEv
 
 {
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1);
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
 {
@@ -162,7 +166,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEv
 
 {
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1);
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
 {
@@ -214,11 +218,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
     return "";
@@ -245,7 +256,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinish
 
 {
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.GDObjectObjects1);
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.condition0IsTrue_0.val = false;
 {
@@ -293,11 +304,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
     return "";
@@ -325,7 +343,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext
 
 
 {
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects1[i].pauseTimer("Autotyping Write Timer");
 }
@@ -365,11 +383,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
     return "";
@@ -397,7 +422,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContex
 
 
 {
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects1[i].unpauseTimer("Autotyping Write Timer");
 }
@@ -437,11 +462,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
     return "";
@@ -468,7 +500,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseC
 
 {
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.GDObjectObjects1);
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.condition0IsTrue_0.val = false;
 {
@@ -516,11 +548,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
     return "";
@@ -554,10 +593,10 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1 = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0;
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8098396);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8691140);
 }
 }if (gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0.val) {
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1.createFrom(eventsFunctionContext.getObjects("Object"));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setInterval((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("interval")) || 0 : 0));
 }
@@ -597,11 +636,18 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     var objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      return parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
-    }
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
     return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
 if (argName === "interval") return interval;
@@ -621,11 +667,5 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPreEve
   this._onceTriggers.startNewFrame();
 };
 
-// Methods:
 
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype._getInterval = function() {
-    return this._behaviorData.Interval !== undefined ? this._behaviorData.Interval : Number("0.05") || 0;
-};
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype._setInterval = function(newValue) {
-    this._behaviorData.Interval = newValue;
-};
+gdjs.registerBehavior("AutoTyping::Text_AutoTyping", gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping);
