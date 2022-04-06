@@ -117,7 +117,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0;
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8680220);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8756332);
 }
 }if (gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1);
@@ -593,7 +593,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1 = gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0;
-gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8691140);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8772180);
 }
 }if (gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.condition0IsTrue_0.val) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);
