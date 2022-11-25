@@ -1,0 +1,12 @@
+{
+  "name": "Técnicas Artesanales",
+  "short_name": "Técnicas Artesanales",
+  "id": "com.museotaminango.tecnicasartesanales",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

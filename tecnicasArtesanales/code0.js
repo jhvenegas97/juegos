@@ -323,13 +323,62 @@ gdjs.NewSceneCode.GDsonidoObjects4= [];
 gdjs.NewSceneCode.GDsonidoObjects5= [];
 gdjs.NewSceneCode.GDsonidoObjects6= [];
 gdjs.NewSceneCode.GDsonidoObjects7= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects1= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects2= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects3= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects4= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects5= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects6= [];
-gdjs.NewSceneCode.GDtextoTecnicaObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects7= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects1= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects2= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects3= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects4= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects5= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects6= [];
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects7= [];
 
 gdjs.NewSceneCode.conditionTrue_0 = {val:false};
 gdjs.NewSceneCode.condition0IsTrue_0 = {val:false};
@@ -343,7 +392,8 @@ gdjs.NewSceneCode.condition2IsTrue_1 = {val:false};
 gdjs.NewSceneCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects3Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects3, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects3, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects3, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects3, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects3, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects3, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects3, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects3});gdjs.NewSceneCode.eventsList0 = function(runtimeScene) {
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects3ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects3Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects3, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects3, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects3, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects3, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects3, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects3, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects3, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects3});
+gdjs.NewSceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -674,7 +724,8 @@ gdjs.NewSceneCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects2Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects2, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects2, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects2, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects2, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects2, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects2, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects2, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects2});gdjs.NewSceneCode.eventsList4 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects2ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects2Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects2, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects2, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects2, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects2, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects2, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects2, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects2, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects2});
+gdjs.NewSceneCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -1034,7 +1085,9 @@ for(var i = 0, len = gdjs.NewSceneCode.GDcard_95pailaObjects2.length ;i < len;++
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects4Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects4, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects4, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects4, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects4, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects4, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects4, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects4, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects4});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDstar_9595particleObjects6Objects = Hashtable.newFrom({"star_particle": gdjs.NewSceneCode.GDstar_95particleObjects6});gdjs.NewSceneCode.eventsList8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects4ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects4Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects4, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects4, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects4, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects4, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects4, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects4, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects4, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects4});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDstar_9595particleObjects6Objects = Hashtable.newFrom({"star_particle": gdjs.NewSceneCode.GDstar_95particleObjects6});
+gdjs.NewSceneCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -1081,7 +1134,7 @@ gdjs.NewSceneCode.GDstar_95particleObjects6.length = 0;
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9190148);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9318604);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDcard_95campanaObjects5, gdjs.NewSceneCode.GDcard_95campanaObjects6);
@@ -1210,8 +1263,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("sombrero"), gdjs.NewSceneCode.GDsombreroObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaPajaToquilla"), gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDsombreroObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDsombreroObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects5[i].hide(false);
 }
 }}
 
@@ -1297,12 +1354,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("pato"), gdjs.NewSceneCode.GDpatoObjects5);
-gdjs.copyArray(runtimeScene.getObjects("textoTecnica"), gdjs.NewSceneCode.GDtextoTecnicaObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaBarniz"), gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDpatoObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDpatoObjects5[i].enableEffect("blancoNegro", false);
 }
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaObjects5.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtextoTecnicaObjects5[i].hide(false);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects5[i].hide(false);
 }
 }}
 
@@ -1388,8 +1445,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("paila"), gdjs.NewSceneCode.GDpailaObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaPaileria"), gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDpailaObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDpailaObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects5[i].hide(false);
 }
 }}
 
@@ -1474,9 +1535,13 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
     }
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaHerreriaYunque"), gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects5);
 gdjs.copyArray(runtimeScene.getObjects("yunque"), gdjs.NewSceneCode.GDyunqueObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDyunqueObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDyunqueObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects5[i].hide(false);
 }
 }}
 
@@ -1562,8 +1627,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("herradura"), gdjs.NewSceneCode.GDherraduraObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaHerreriaHerradura"), gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDherraduraObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDherraduraObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects5[i].hide(false);
 }
 }}
 
@@ -1649,8 +1718,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("serrucho"), gdjs.NewSceneCode.GDserruchoObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaCarpinteria"), gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDserruchoObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDserruchoObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects5[i].hide(false);
 }
 }}
 
@@ -1736,8 +1809,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("tambor"), gdjs.NewSceneCode.GDtamborObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaLuteria"), gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDtamborObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDtamborObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects5[i].hide(false);
 }
 }}
 
@@ -1823,8 +1900,12 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects5.length = k;for(var i = 0, k = 0, l 
 }
 gdjs.NewSceneCode.GDcard_95pailaObjects5.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("campana"), gdjs.NewSceneCode.GDcampanaObjects5);
+gdjs.copyArray(runtimeScene.getObjects("textoTecnicaForja"), gdjs.NewSceneCode.GDtextoTecnicaForjaObjects5);
 {for(var i = 0, len = gdjs.NewSceneCode.GDcampanaObjects5.length ;i < len;++i) {
     gdjs.NewSceneCode.GDcampanaObjects5[i].enableEffect("blancoNegro", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtextoTecnicaForjaObjects5.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtextoTecnicaForjaObjects5[i].hide(false);
 }
 }}
 
@@ -2142,7 +2223,7 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects4.length = k;for(var i = 0, k = 0, l 
 gdjs.NewSceneCode.GDcard_95pailaObjects4.length = k;}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9191428);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9319900);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -2447,7 +2528,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElaps
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9178708);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9305884);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -2532,7 +2613,7 @@ gdjs.NewSceneCode.GDcard_95herraduraObjects1.length = k;for(var i = 0, k = 0, l 
 gdjs.NewSceneCode.GDcard_95pailaObjects1.length = k;}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9194244);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9322524);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -2552,7 +2633,7 @@ gdjs.NewSceneCode.eventsList14(runtimeScene);} //End of subevents
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9196676);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9324732);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "sounds/pop.ogg", 2, false, 100, 1);
@@ -2569,7 +2650,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9197676);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9325668);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 }
@@ -2577,7 +2658,8 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});gdjs.NewSceneCode.userFunc0x816998 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
+gdjs.NewSceneCode.userFunc0x83dbe8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 runtimeScene.getLayer("Juegos").show(true);
@@ -2588,7 +2670,7 @@ gdjs.NewSceneCode.eventsList18 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x816998(runtimeScene);
+gdjs.NewSceneCode.userFunc0x83dbe8(runtimeScene);
 
 }
 
@@ -2608,7 +2690,7 @@ gdjs.NewSceneCode.userFunc0x816998(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9202604);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9330228);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnewgame_95buttonObjects2, gdjs.NewSceneCode.GDnewgame_95buttonObjects3);
@@ -2637,7 +2719,8 @@ gdjs.NewSceneCode.eventsList18(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});gdjs.NewSceneCode.eventsList20 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
+gdjs.NewSceneCode.eventsList20 = function(runtimeScene) {
 
 {
 
@@ -2652,7 +2735,7 @@ gdjs.NewSceneCode.eventsList18(runtimeScene);} //End of subevents
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9205284);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9332772);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnewgame_95buttonObjects2 */
@@ -2664,7 +2747,8 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});gdjs.NewSceneCode.eventsList21 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});
+gdjs.NewSceneCode.eventsList21 = function(runtimeScene) {
 
 {
 
@@ -2672,7 +2756,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9206580);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9334028);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnext_95buttonObjects2, gdjs.NewSceneCode.GDnext_95buttonObjects3);
@@ -2699,7 +2783,8 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects1Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects1});gdjs.NewSceneCode.eventsList22 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects1Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects1});
+gdjs.NewSceneCode.eventsList22 = function(runtimeScene) {
 
 {
 
@@ -2707,7 +2792,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9208892);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9336284);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnext_95buttonObjects1 */
@@ -2727,7 +2812,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9199124);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9327084);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("newgame_button"), gdjs.NewSceneCode.GDnewgame_95buttonObjects2);
@@ -2891,7 +2976,8 @@ gdjs.NewSceneCode.eventsList23(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects1Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects1, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects1, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects1, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects1, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects1, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects1, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects1, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects1});gdjs.NewSceneCode.eventsList25 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcard_9595patoObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595yunqueObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595tamborObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595serruchoObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595campanaObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595sombreroObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595herraduraObjects1ObjectsGDgdjs_46NewSceneCode_46GDcard_9595pailaObjects1Objects = Hashtable.newFrom({"card_pato": gdjs.NewSceneCode.GDcard_95patoObjects1, "card_yunque": gdjs.NewSceneCode.GDcard_95yunqueObjects1, "card_tambor": gdjs.NewSceneCode.GDcard_95tamborObjects1, "card_serrucho": gdjs.NewSceneCode.GDcard_95serruchoObjects1, "card_campana": gdjs.NewSceneCode.GDcard_95campanaObjects1, "card_sombrero": gdjs.NewSceneCode.GDcard_95sombreroObjects1, "card_herradura": gdjs.NewSceneCode.GDcard_95herraduraObjects1, "card_paila": gdjs.NewSceneCode.GDcard_95pailaObjects1});
+gdjs.NewSceneCode.eventsList25 = function(runtimeScene) {
 
 {
 
@@ -2942,7 +3028,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCou
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9210076);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9337204);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -2960,7 +3046,8 @@ gdjs.NewSceneCode.eventsList25(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});gdjs.NewSceneCode.userFunc0x818948 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
+gdjs.NewSceneCode.userFunc0x8b12c0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/vestirNapanga/";
@@ -2970,7 +3057,7 @@ gdjs.NewSceneCode.eventsList27 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x818948(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8b12c0(runtimeScene);
 
 }
 
@@ -2992,7 +3079,9 @@ gdjs.NewSceneCode.eventsList27(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x8191a0 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8bafe8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/plantasMedicinales/";
@@ -3002,7 +3091,7 @@ gdjs.NewSceneCode.eventsList29 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8191a0(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8bafe8(runtimeScene);
 
 }
 
@@ -3024,7 +3113,9 @@ gdjs.NewSceneCode.eventsList29(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x819a10 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8cccd8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/juegosTradicionales/";
@@ -3034,7 +3125,7 @@ gdjs.NewSceneCode.eventsList31 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x819a10(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8cccd8(runtimeScene);
 
 }
 
@@ -3056,7 +3147,9 @@ gdjs.NewSceneCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.userFunc0x81a290 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8c21a0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/aventuraInti/";
@@ -3066,7 +3159,7 @@ gdjs.NewSceneCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x81a290(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8c21a0(runtimeScene);
 
 }
 
@@ -3088,7 +3181,9 @@ gdjs.NewSceneCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.userFunc0x81aaf0 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8b0210 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/sonidoCorrecto/";
@@ -3098,7 +3193,7 @@ gdjs.NewSceneCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x81aaf0(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8b0210(runtimeScene);
 
 }
 
@@ -3120,7 +3215,9 @@ gdjs.NewSceneCode.eventsList35(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});gdjs.NewSceneCode.userFunc0x81b370 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8b0a88 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/ahorcado/";
@@ -3130,7 +3227,7 @@ gdjs.NewSceneCode.eventsList37 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x81b370(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8b0a88(runtimeScene);
 
 }
 
@@ -3152,7 +3249,8 @@ gdjs.NewSceneCode.eventsList37(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});gdjs.NewSceneCode.eventsList39 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});
+gdjs.NewSceneCode.eventsList39 = function(runtimeScene) {
 
 {
 
@@ -3312,7 +3410,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.29, 0.29, "linear", 200, false, true);
 }
 }
 { //Subevents
@@ -3332,7 +3430,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.27, 0.27, "linear", 200, false, true);
 }
 }}
 
@@ -3349,7 +3447,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.29, 0.29, "linear", 200, false, true);
 }
 }
 { //Subevents
@@ -3369,14 +3467,15 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects1 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.27, 0.27, "linear", 200, false, true);
 }
 }}
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.userFunc0x81bca8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.userFunc0x849fe8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 var element = runtimeScene.getGame().getVariables().get("sonidoHabilitado");
@@ -3401,7 +3500,7 @@ gdjs.NewSceneCode.eventsList40 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x81bca8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x849fe8(runtimeScene);
 
 }
 
@@ -3414,7 +3513,7 @@ gdjs.NewSceneCode.userFunc0x81bca8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9229348);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9355756);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
@@ -3442,7 +3541,8 @@ gdjs.NewSceneCode.eventsList41(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.eventsList43 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.eventsList43 = function(runtimeScene) {
 
 {
 
@@ -4445,13 +4545,62 @@ gdjs.NewSceneCode.GDsonidoObjects4.length = 0;
 gdjs.NewSceneCode.GDsonidoObjects5.length = 0;
 gdjs.NewSceneCode.GDsonidoObjects6.length = 0;
 gdjs.NewSceneCode.GDsonidoObjects7.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects1.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects2.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects3.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects4.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects5.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects6.length = 0;
-gdjs.NewSceneCode.GDtextoTecnicaObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaBarnizObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaCarpinteriaObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaYunqueObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaHerreriaHerraduraObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPaileriaObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaPajaToquillaObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaLuteriaObjects7.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects1.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects2.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects3.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects4.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects5.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects6.length = 0;
+gdjs.NewSceneCode.GDtextoTecnicaForjaObjects7.length = 0;
 
 gdjs.NewSceneCode.eventsList43(runtimeScene);
 return;

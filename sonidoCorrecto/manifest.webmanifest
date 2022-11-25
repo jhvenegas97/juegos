@@ -1,0 +1,12 @@
+{
+  "name": "Sonidos de Nariño",
+  "short_name": "Sonidos de Nariño",
+  "id": "com.museotaminango.sonidosnarino",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

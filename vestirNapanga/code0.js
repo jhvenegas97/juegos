@@ -173,7 +173,9 @@ gdjs.copyArray(runtimeScene.getObjects("screen_fade"), gdjs.NewSceneCode.GDscree
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDblusaObjects1Objects = Hashtable.newFrom({"blusa": gdjs.NewSceneCode.GDblusaObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoBlusaObjects1Objects = Hashtable.newFrom({"puntoBlusa": gdjs.NewSceneCode.GDpuntoBlusaObjects1});gdjs.NewSceneCode.userFunc0x85e5d8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDblusaObjects1Objects = Hashtable.newFrom({"blusa": gdjs.NewSceneCode.GDblusaObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoBlusaObjects1Objects = Hashtable.newFrom({"puntoBlusa": gdjs.NewSceneCode.GDpuntoBlusaObjects1});
+gdjs.NewSceneCode.userFunc0x86fe88 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -183,7 +185,7 @@ gdjs.NewSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x85e5d8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x86fe88(runtimeScene);
 
 }
 
@@ -194,7 +196,7 @@ gdjs.NewSceneCode.userFunc0x85e5d8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8220508);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8854028);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -252,7 +254,9 @@ gdjs.NewSceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcuncheObjects1Objects = Hashtable.newFrom({"cunche": gdjs.NewSceneCode.GDcuncheObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoCuncheObjects1Objects = Hashtable.newFrom({"puntoCunche": gdjs.NewSceneCode.GDpuntoCuncheObjects1});gdjs.NewSceneCode.userFunc0x83d880 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcuncheObjects1Objects = Hashtable.newFrom({"cunche": gdjs.NewSceneCode.GDcuncheObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoCuncheObjects1Objects = Hashtable.newFrom({"puntoCunche": gdjs.NewSceneCode.GDpuntoCuncheObjects1});
+gdjs.NewSceneCode.userFunc0x7c2f78 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -262,7 +266,7 @@ gdjs.NewSceneCode.eventsList3 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x83d880(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7c2f78(runtimeScene);
 
 }
 
@@ -273,7 +277,7 @@ gdjs.NewSceneCode.userFunc0x83d880(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8227892);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8858140);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -331,7 +335,9 @@ gdjs.NewSceneCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDfollonObjects1Objects = Hashtable.newFrom({"follon": gdjs.NewSceneCode.GDfollonObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoFollonObjects1Objects = Hashtable.newFrom({"puntoFollon": gdjs.NewSceneCode.GDpuntoFollonObjects1});gdjs.NewSceneCode.userFunc0x8d18d8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDfollonObjects1Objects = Hashtable.newFrom({"follon": gdjs.NewSceneCode.GDfollonObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoFollonObjects1Objects = Hashtable.newFrom({"puntoFollon": gdjs.NewSceneCode.GDpuntoFollonObjects1});
+gdjs.NewSceneCode.userFunc0x8547c8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -341,7 +347,7 @@ gdjs.NewSceneCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8d18d8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8547c8(runtimeScene);
 
 }
 
@@ -352,7 +358,7 @@ gdjs.NewSceneCode.userFunc0x8d18d8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8237228);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8862276);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -410,7 +416,9 @@ gdjs.NewSceneCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalzadoObjects1Objects = Hashtable.newFrom({"calzado": gdjs.NewSceneCode.GDcalzadoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoCalzadoObjects1Objects = Hashtable.newFrom({"puntoCalzado": gdjs.NewSceneCode.GDpuntoCalzadoObjects1});gdjs.NewSceneCode.userFunc0x8cedf8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalzadoObjects1Objects = Hashtable.newFrom({"calzado": gdjs.NewSceneCode.GDcalzadoObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoCalzadoObjects1Objects = Hashtable.newFrom({"puntoCalzado": gdjs.NewSceneCode.GDpuntoCalzadoObjects1});
+gdjs.NewSceneCode.userFunc0x88a198 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -420,7 +428,7 @@ gdjs.NewSceneCode.eventsList7 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8cedf8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x88a198(runtimeScene);
 
 }
 
@@ -431,7 +439,7 @@ gdjs.NewSceneCode.userFunc0x8cedf8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8227596);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8866244);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -489,7 +497,9 @@ gdjs.NewSceneCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDchalinaObjects1Objects = Hashtable.newFrom({"chalina": gdjs.NewSceneCode.GDchalinaObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoChalinaObjects1Objects = Hashtable.newFrom({"puntoChalina": gdjs.NewSceneCode.GDpuntoChalinaObjects1});gdjs.NewSceneCode.userFunc0x8bced8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDchalinaObjects1Objects = Hashtable.newFrom({"chalina": gdjs.NewSceneCode.GDchalinaObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoChalinaObjects1Objects = Hashtable.newFrom({"puntoChalina": gdjs.NewSceneCode.GDpuntoChalinaObjects1});
+gdjs.NewSceneCode.userFunc0x761648 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -499,7 +509,7 @@ gdjs.NewSceneCode.eventsList9 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8bced8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x761648(runtimeScene);
 
 }
 
@@ -510,7 +520,7 @@ gdjs.NewSceneCode.userFunc0x8bced8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8219092);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8870228);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -568,7 +578,9 @@ gdjs.NewSceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalhajasObjects1Objects = Hashtable.newFrom({"alhajas": gdjs.NewSceneCode.GDalhajasObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoAlhajasObjects1Objects = Hashtable.newFrom({"puntoAlhajas": gdjs.NewSceneCode.GDpuntoAlhajasObjects1});gdjs.NewSceneCode.userFunc0x8bd900 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalhajasObjects1Objects = Hashtable.newFrom({"alhajas": gdjs.NewSceneCode.GDalhajasObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDpuntoAlhajasObjects1Objects = Hashtable.newFrom({"puntoAlhajas": gdjs.NewSceneCode.GDpuntoAlhajasObjects1});
+gdjs.NewSceneCode.userFunc0x85e130 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -578,7 +590,7 @@ gdjs.NewSceneCode.eventsList11 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8bd900(runtimeScene);
+gdjs.NewSceneCode.userFunc0x85e130(runtimeScene);
 
 }
 
@@ -589,7 +601,7 @@ gdjs.NewSceneCode.userFunc0x8bd900(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9251524);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8874364);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -647,7 +659,8 @@ gdjs.NewSceneCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});gdjs.NewSceneCode.userFunc0x8ca9a8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});
+gdjs.NewSceneCode.userFunc0x7dd718 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 //document.location="https://museotaminango.com/portal-ninos";
@@ -659,7 +672,7 @@ gdjs.NewSceneCode.eventsList13 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8ca9a8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7dd718(runtimeScene);
 
 }
 
@@ -681,7 +694,7 @@ gdjs.NewSceneCode.userFunc0x8ca9a8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9260612);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8878012);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnext_95buttonObjects2, gdjs.NewSceneCode.GDnext_95buttonObjects3);
@@ -710,7 +723,8 @@ gdjs.NewSceneCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});gdjs.NewSceneCode.eventsList15 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});
+gdjs.NewSceneCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -718,7 +732,7 @@ gdjs.NewSceneCode.eventsList13(runtimeScene);} //End of subevents
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9264508);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8880724);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnext_95buttonObjects2 */
@@ -730,7 +744,8 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});gdjs.NewSceneCode.eventsList16 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
+gdjs.NewSceneCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -738,7 +753,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9266580);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8880572);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnewgame_95buttonObjects2, gdjs.NewSceneCode.GDnewgame_95buttonObjects3);
@@ -765,7 +780,8 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects1Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects1});gdjs.NewSceneCode.eventsList17 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects1Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects1});
+gdjs.NewSceneCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -773,7 +789,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9268724);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8883932);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnewgame_95buttonObjects1 */
@@ -793,7 +809,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9255284);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8875324);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("newgame_button"), gdjs.NewSceneCode.GDnewgame_95buttonObjects2);
@@ -889,7 +905,9 @@ gdjs.NewSceneCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects2Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects1Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects1});gdjs.NewSceneCode.userFunc0x85f138 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects2Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects1Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects1});
+gdjs.NewSceneCode.userFunc0x863ea0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("UI").show(true); }, 1000);
@@ -899,7 +917,7 @@ gdjs.NewSceneCode.eventsList19 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x85f138(runtimeScene);
+gdjs.NewSceneCode.userFunc0x863ea0(runtimeScene);
 
 }
 
@@ -916,7 +934,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNum
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9276004);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8888844);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -1004,7 +1022,8 @@ gdjs.NewSceneCode.eventsList21(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.userFunc0x8f5dd8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.userFunc0x853ad0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 var element = runtimeScene.getGame().getVariables().get("sonidoHabilitado");
@@ -1029,7 +1048,7 @@ gdjs.NewSceneCode.eventsList23 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8f5dd8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x853ad0(runtimeScene);
 
 }
 
@@ -1042,7 +1061,7 @@ gdjs.NewSceneCode.userFunc0x8f5dd8(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9279596);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8891268);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
@@ -1070,7 +1089,9 @@ gdjs.NewSceneCode.eventsList24(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x84a3b8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x865e88 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/plantasMedicinales/";
@@ -1080,7 +1101,7 @@ gdjs.NewSceneCode.eventsList26 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x84a3b8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x865e88(runtimeScene);
 
 }
 
@@ -1102,7 +1123,9 @@ gdjs.NewSceneCode.eventsList26(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x848bd8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x85c460 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/tecnicasArtesanales/";
@@ -1112,7 +1135,7 @@ gdjs.NewSceneCode.eventsList28 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x848bd8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x85c460(runtimeScene);
 
 }
 
@@ -1134,7 +1157,9 @@ gdjs.NewSceneCode.eventsList28(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x839288 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x85e708 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/juegosTradicionales/";
@@ -1144,7 +1169,7 @@ gdjs.NewSceneCode.eventsList30 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x839288(runtimeScene);
+gdjs.NewSceneCode.userFunc0x85e708(runtimeScene);
 
 }
 
@@ -1166,7 +1191,9 @@ gdjs.NewSceneCode.eventsList30(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.userFunc0x861c90 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x865f90 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/aventuraInti/";
@@ -1176,7 +1203,7 @@ gdjs.NewSceneCode.eventsList32 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x861c90(runtimeScene);
+gdjs.NewSceneCode.userFunc0x865f90(runtimeScene);
 
 }
 
@@ -1198,7 +1225,9 @@ gdjs.NewSceneCode.eventsList32(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.userFunc0x842b98 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x8543b8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/sonidoCorrecto/";
@@ -1208,7 +1237,7 @@ gdjs.NewSceneCode.eventsList34 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x842b98(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8543b8(runtimeScene);
 
 }
 
@@ -1230,7 +1259,9 @@ gdjs.NewSceneCode.eventsList34(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});gdjs.NewSceneCode.userFunc0x781f60 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x74eaf8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/ahorcado/";
@@ -1240,7 +1271,7 @@ gdjs.NewSceneCode.eventsList36 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x781f60(runtimeScene);
+gdjs.NewSceneCode.userFunc0x74eaf8(runtimeScene);
 
 }
 
@@ -1262,7 +1293,8 @@ gdjs.NewSceneCode.eventsList36(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});gdjs.NewSceneCode.eventsList38 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});
+gdjs.NewSceneCode.eventsList38 = function(runtimeScene) {
 
 {
 
@@ -1311,7 +1343,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.28, 0.28, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.29, 0.29, "linear", 200, false, true);
 }
 }
 { //Subevents
@@ -1331,7 +1363,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.25, 0.25, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.27, 0.27, "linear", 200, false, true);
 }
 }}
 
@@ -1422,7 +1454,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.30, 0.30, "linear", 200, false, true);
 }
 }
 { //Subevents
@@ -1442,7 +1474,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.28, 0.28, "linear", 200, false, true);
 }
 }}
 
@@ -1459,7 +1491,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.29, 0.29, "linear", 200, false, true);
 }
 }
 { //Subevents
@@ -1479,7 +1511,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects1 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.27, 0.27, "linear", 200, false, true);
 }
 }}
 

@@ -160,10 +160,12 @@ gdjs.NewSceneCode.conditionTrue_0 = {val:false};
 gdjs.NewSceneCode.condition0IsTrue_0 = {val:false};
 gdjs.NewSceneCode.condition1IsTrue_0 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_0 = {val:false};
+gdjs.NewSceneCode.condition3IsTrue_0 = {val:false};
 gdjs.NewSceneCode.conditionTrue_1 = {val:false};
 gdjs.NewSceneCode.condition0IsTrue_1 = {val:false};
 gdjs.NewSceneCode.condition1IsTrue_1 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_1 = {val:false};
+gdjs.NewSceneCode.condition3IsTrue_1 = {val:false};
 
 
 gdjs.NewSceneCode.eventsList0 = function(runtimeScene) {
@@ -185,7 +187,9 @@ gdjs.copyArray(runtimeScene.getObjects("screen_fade"), gdjs.NewSceneCode.GDscree
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDllantenObjects1Objects = Hashtable.newFrom({"llanten": gdjs.NewSceneCode.GDllantenObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta28Objects1Objects = Hashtable.newFrom({"silueta28": gdjs.NewSceneCode.GDsilueta28Objects1});gdjs.NewSceneCode.userFunc0x734448 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDllantenObjects2Objects = Hashtable.newFrom({"llanten": gdjs.NewSceneCode.GDllantenObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta28Objects2Objects = Hashtable.newFrom({"silueta28": gdjs.NewSceneCode.GDsilueta28Objects2});
+gdjs.NewSceneCode.userFunc0x71d8c0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -195,7 +199,7 @@ gdjs.NewSceneCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x734448(runtimeScene);
+gdjs.NewSceneCode.userFunc0x71d8c0(runtimeScene);
 
 }
 
@@ -206,7 +210,7 @@ gdjs.NewSceneCode.userFunc0x734448(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9393868);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8879844);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -219,33 +223,33 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 
 {
 
-/* Reuse gdjs.NewSceneCode.GDllantenObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("silueta28"), gdjs.NewSceneCode.GDsilueta28Objects1);
+/* Reuse gdjs.NewSceneCode.GDllantenObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("silueta28"), gdjs.NewSceneCode.GDsilueta28Objects2);
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDllantenObjects1Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta28Objects1Objects, false, runtimeScene, false);
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDllantenObjects2Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta28Objects2Objects, false, runtimeScene, false);
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects1);
-/* Reuse gdjs.NewSceneCode.GDllantenObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects1);
-/* Reuse gdjs.NewSceneCode.GDsilueta28Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects1);
-{for(var i = 0, len = gdjs.NewSceneCode.GDllantenObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDllantenObjects1[i].setPosition((( gdjs.NewSceneCode.GDsilueta28Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta28Objects1[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta28Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta28Objects1[0].getPointY("")));
+gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects2);
+/* Reuse gdjs.NewSceneCode.GDllantenObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects2);
+/* Reuse gdjs.NewSceneCode.GDsilueta28Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDllantenObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDllantenObjects2[i].setPosition((( gdjs.NewSceneCode.GDsilueta28Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta28Objects2[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta28Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta28Objects2[0].getPointY("")));
 }
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
-}{for(var i = 0, len = gdjs.NewSceneCode.GDllantenObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDllantenObjects1[i].activateBehavior("Draggable", false);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDllantenObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDllantenObjects2[i].activateBehavior("Draggable", false);
 }
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtituloObjects1[i].setString("Llantén");
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtituloObjects2[i].setString("Llantén");
 }
-}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDdescripcionPlantaObjects1[i].setString("En infusiones o zumo como diurético, bronquiolitico, antiasmático y en gastritis. En cataplasma o sus hojas soasadas para cubrir ulceras varicosas.");
+}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDdescripcionPlantaObjects2[i].setString("En infusiones o zumo como diurético, bronquiolitico, antiasmático y en gastritis. En cataplasma o sus hojas soasadas para cubrir ulceras varicosas.");
 }
-}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDplantaMostrarObjects1[i].setAnimationName("llanten");
+}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDplantaMostrarObjects2[i].setAnimationName("llanten");
 }
 }
 { //Subevents
@@ -255,7 +259,9 @@ gdjs.NewSceneCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsaucoObjects1Objects = Hashtable.newFrom({"sauco": gdjs.NewSceneCode.GDsaucoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta29Objects1Objects = Hashtable.newFrom({"silueta29": gdjs.NewSceneCode.GDsilueta29Objects1});gdjs.NewSceneCode.userFunc0x78a9a0 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalbahacaObjects2Objects = Hashtable.newFrom({"albahaca": gdjs.NewSceneCode.GDalbahacaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta30Objects2Objects = Hashtable.newFrom({"silueta30": gdjs.NewSceneCode.GDsilueta30Objects2});
+gdjs.NewSceneCode.userFunc0x7dd408 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
@@ -265,7 +271,7 @@ gdjs.NewSceneCode.eventsList3 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x78a9a0(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7dd408(runtimeScene);
 
 }
 
@@ -276,7 +282,7 @@ gdjs.NewSceneCode.userFunc0x78a9a0(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9391004);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8883204);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
@@ -286,6 +292,294 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 
 
 };gdjs.NewSceneCode.eventsList4 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.NewSceneCode.GDalbahacaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("silueta30"), gdjs.NewSceneCode.GDsilueta30Objects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalbahacaObjects2Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta30Objects2Objects, false, runtimeScene, false);
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.NewSceneCode.GDalbahacaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects2);
+/* Reuse gdjs.NewSceneCode.GDsilueta30Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDalbahacaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDalbahacaObjects2[i].setPosition((( gdjs.NewSceneCode.GDsilueta30Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta30Objects2[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta30Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta30Objects2[0].getPointY("")));
+}
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDalbahacaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDalbahacaObjects2[i].activateBehavior("Draggable", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtituloObjects2[i].setString("Albahaca");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDdescripcionPlantaObjects2[i].setString("En infusión o tisana es estimulante y antiespasmódico, carminativo y aromática. Estimula la secreción láctea de las madres.");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDplantaMostrarObjects2[i].setAnimationName("albahaca");
+}
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDeucaliptoObjects2Objects = Hashtable.newFrom({"eucalipto": gdjs.NewSceneCode.GDeucaliptoObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta31Objects2Objects = Hashtable.newFrom({"silueta31": gdjs.NewSceneCode.GDsilueta31Objects2});
+gdjs.NewSceneCode.userFunc0x7670b0 = function(runtimeScene) {
+"use strict";
+runtimeScene.setBackgroundColor(100,100,240);
+setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
+};
+gdjs.NewSceneCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.userFunc0x7670b0(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8886548);
+}
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}}
+
+}
+
+
+};gdjs.NewSceneCode.eventsList6 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.NewSceneCode.GDeucaliptoObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("silueta31"), gdjs.NewSceneCode.GDsilueta31Objects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDeucaliptoObjects2Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta31Objects2Objects, false, runtimeScene, false);
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects2);
+/* Reuse gdjs.NewSceneCode.GDeucaliptoObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects2);
+/* Reuse gdjs.NewSceneCode.GDsilueta31Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDeucaliptoObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDeucaliptoObjects2[i].setPosition((( gdjs.NewSceneCode.GDsilueta31Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta31Objects2[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta31Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta31Objects2[0].getPointY("")));
+}
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDeucaliptoObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDeucaliptoObjects2[i].activateBehavior("Draggable", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtituloObjects2[i].setString("Eucalipto");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDdescripcionPlantaObjects2[i].setString("Idóneo para tratar resfriados y catarros, calma la fiebre, para tratar heridas y afecciones de la piel.");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDplantaMostrarObjects2[i].setAnimationName("eucalipto");
+}
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDmanzanillaObjects2Objects = Hashtable.newFrom({"manzanilla": gdjs.NewSceneCode.GDmanzanillaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta32Objects2Objects = Hashtable.newFrom({"silueta32": gdjs.NewSceneCode.GDsilueta32Objects2});
+gdjs.NewSceneCode.userFunc0x866e10 = function(runtimeScene) {
+"use strict";
+runtimeScene.setBackgroundColor(100,100,240);
+setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
+};
+gdjs.NewSceneCode.eventsList7 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.userFunc0x866e10(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8889916);
+}
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}}
+
+}
+
+
+};gdjs.NewSceneCode.eventsList8 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.NewSceneCode.GDmanzanillaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("silueta32"), gdjs.NewSceneCode.GDsilueta32Objects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDmanzanillaObjects2Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta32Objects2Objects, false, runtimeScene, false);
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects2);
+/* Reuse gdjs.NewSceneCode.GDmanzanillaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects2);
+/* Reuse gdjs.NewSceneCode.GDsilueta32Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDmanzanillaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDmanzanillaObjects2[i].setPosition((( gdjs.NewSceneCode.GDsilueta32Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta32Objects2[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta32Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta32Objects2[0].getPointY("")));
+}
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDmanzanillaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDmanzanillaObjects2[i].activateBehavior("Draggable", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtituloObjects2[i].setString("Manzanilla");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDdescripcionPlantaObjects2[i].setString("En infusión como sedante, antiespasmódico, y para aliviar los cólicos menstruales. En cocimiento para lavar ulceraciones.");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDplantaMostrarObjects2[i].setAnimationName("manzanilla");
+}
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalendulaObjects2Objects = Hashtable.newFrom({"calendula": gdjs.NewSceneCode.GDcalendulaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta33Objects2Objects = Hashtable.newFrom({"silueta33": gdjs.NewSceneCode.GDsilueta33Objects2});
+gdjs.NewSceneCode.userFunc0x7e3f78 = function(runtimeScene) {
+"use strict";
+runtimeScene.setBackgroundColor(100,100,240);
+setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
+};
+gdjs.NewSceneCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.userFunc0x7e3f78(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8893284);
+}
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}}
+
+}
+
+
+};gdjs.NewSceneCode.eventsList10 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.NewSceneCode.GDcalendulaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("silueta33"), gdjs.NewSceneCode.GDsilueta33Objects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalendulaObjects2Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta33Objects2Objects, false, runtimeScene, false);
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.NewSceneCode.GDcalendulaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects2);
+/* Reuse gdjs.NewSceneCode.GDsilueta33Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDcalendulaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDcalendulaObjects2[i].setPosition((( gdjs.NewSceneCode.GDsilueta33Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta33Objects2[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta33Objects2.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta33Objects2[0].getPointY("")));
+}
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
+}{for(var i = 0, len = gdjs.NewSceneCode.GDcalendulaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDcalendulaObjects2[i].activateBehavior("Draggable", false);
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDtituloObjects2[i].setString("Caléndula");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDdescripcionPlantaObjects2[i].setString("Tiene propiedades antisépticas y de cicatrización, ayuda con los problemas estomacales.");
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDplantaMostrarObjects2[i].setAnimationName("calendula");
+}
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList9(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsaucoObjects1Objects = Hashtable.newFrom({"sauco": gdjs.NewSceneCode.GDsaucoObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta29Objects1Objects = Hashtable.newFrom({"silueta29": gdjs.NewSceneCode.GDsilueta29Objects1});
+gdjs.NewSceneCode.userFunc0x7e3530 = function(runtimeScene) {
+"use strict";
+runtimeScene.setBackgroundColor(100,100,240);
+setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
+};
+gdjs.NewSceneCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.userFunc0x7e3530(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8896684);
+}
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}}
+
+}
+
+
+};gdjs.NewSceneCode.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -319,310 +613,165 @@ gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObje
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList3(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalbahacaObjects1Objects = Hashtable.newFrom({"albahaca": gdjs.NewSceneCode.GDalbahacaObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta30Objects1Objects = Hashtable.newFrom({"silueta30": gdjs.NewSceneCode.GDsilueta30Objects1});gdjs.NewSceneCode.userFunc0x8f52c8 = function(runtimeScene) {
-"use strict";
-runtimeScene.setBackgroundColor(100,100,240);
-setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
-};
-gdjs.NewSceneCode.eventsList5 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.userFunc0x8f52c8(runtimeScene);
-
-}
-
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8640292);
-}
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
-}}
-
-}
-
-
-};gdjs.NewSceneCode.eventsList6 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.NewSceneCode.GDalbahacaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("silueta30"), gdjs.NewSceneCode.GDsilueta30Objects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDalbahacaObjects1Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta30Objects1Objects, false, runtimeScene, false);
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.NewSceneCode.GDalbahacaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects1);
-gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects1);
-/* Reuse gdjs.NewSceneCode.GDsilueta30Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects1);
-{for(var i = 0, len = gdjs.NewSceneCode.GDalbahacaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDalbahacaObjects1[i].setPosition((( gdjs.NewSceneCode.GDsilueta30Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta30Objects1[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta30Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta30Objects1[0].getPointY("")));
-}
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
-}{for(var i = 0, len = gdjs.NewSceneCode.GDalbahacaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDalbahacaObjects1[i].activateBehavior("Draggable", false);
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtituloObjects1[i].setString("Albahaca");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDdescripcionPlantaObjects1[i].setString("En infusión o tisana es estimulante y antiespasmódico, carminativo y aromática. Estimula la secreción láctea de las madres.");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDplantaMostrarObjects1[i].setAnimationName("albahaca");
-}
-}
-{ //Subevents
-gdjs.NewSceneCode.eventsList5(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDeucaliptoObjects1Objects = Hashtable.newFrom({"eucalipto": gdjs.NewSceneCode.GDeucaliptoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta31Objects1Objects = Hashtable.newFrom({"silueta31": gdjs.NewSceneCode.GDsilueta31Objects1});gdjs.NewSceneCode.userFunc0x8c4620 = function(runtimeScene) {
-"use strict";
-runtimeScene.setBackgroundColor(100,100,240);
-setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
-};
-gdjs.NewSceneCode.eventsList7 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.userFunc0x8c4620(runtimeScene);
-
-}
-
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8644716);
-}
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
-}}
-
-}
-
-
-};gdjs.NewSceneCode.eventsList8 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.NewSceneCode.GDeucaliptoObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("silueta31"), gdjs.NewSceneCode.GDsilueta31Objects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDeucaliptoObjects1Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta31Objects1Objects, false, runtimeScene, false);
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects1);
-/* Reuse gdjs.NewSceneCode.GDeucaliptoObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects1);
-/* Reuse gdjs.NewSceneCode.GDsilueta31Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects1);
-{for(var i = 0, len = gdjs.NewSceneCode.GDeucaliptoObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDeucaliptoObjects1[i].setPosition((( gdjs.NewSceneCode.GDsilueta31Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta31Objects1[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta31Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta31Objects1[0].getPointY("")));
-}
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
-}{for(var i = 0, len = gdjs.NewSceneCode.GDeucaliptoObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDeucaliptoObjects1[i].activateBehavior("Draggable", false);
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtituloObjects1[i].setString("Eucalipto");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDdescripcionPlantaObjects1[i].setString("Idóneo para tratar resfriados y catarros, calma la fiebre, para tratar heridas y afecciones de la piel.");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDplantaMostrarObjects1[i].setAnimationName("eucalipto");
-}
-}
-{ //Subevents
-gdjs.NewSceneCode.eventsList7(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDmanzanillaObjects1Objects = Hashtable.newFrom({"manzanilla": gdjs.NewSceneCode.GDmanzanillaObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta32Objects1Objects = Hashtable.newFrom({"silueta32": gdjs.NewSceneCode.GDsilueta32Objects1});gdjs.NewSceneCode.userFunc0x834c98 = function(runtimeScene) {
-"use strict";
-runtimeScene.setBackgroundColor(100,100,240);
-setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
-};
-gdjs.NewSceneCode.eventsList9 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.userFunc0x834c98(runtimeScene);
-
-}
-
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8650140);
-}
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
-}}
-
-}
-
-
-};gdjs.NewSceneCode.eventsList10 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.NewSceneCode.GDmanzanillaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("silueta32"), gdjs.NewSceneCode.GDsilueta32Objects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDmanzanillaObjects1Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta32Objects1Objects, false, runtimeScene, false);
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects1);
-/* Reuse gdjs.NewSceneCode.GDmanzanillaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects1);
-/* Reuse gdjs.NewSceneCode.GDsilueta32Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects1);
-{for(var i = 0, len = gdjs.NewSceneCode.GDmanzanillaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDmanzanillaObjects1[i].setPosition((( gdjs.NewSceneCode.GDsilueta32Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta32Objects1[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta32Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta32Objects1[0].getPointY("")));
-}
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
-}{for(var i = 0, len = gdjs.NewSceneCode.GDmanzanillaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDmanzanillaObjects1[i].activateBehavior("Draggable", false);
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtituloObjects1[i].setString("Manzanilla");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDdescripcionPlantaObjects1[i].setString("En infusión como sedante, antiespasmódico, y para aliviar los cólicos menstruales. En cocimiento para lavar ulceraciones.");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDplantaMostrarObjects1[i].setAnimationName("manzanilla");
-}
-}
-{ //Subevents
-gdjs.NewSceneCode.eventsList9(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalendulaObjects1Objects = Hashtable.newFrom({"calendula": gdjs.NewSceneCode.GDcalendulaObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta33Objects1Objects = Hashtable.newFrom({"silueta33": gdjs.NewSceneCode.GDsilueta33Objects1});gdjs.NewSceneCode.userFunc0x8bc048 = function(runtimeScene) {
-"use strict";
-runtimeScene.setBackgroundColor(100,100,240);
-setTimeout(() => {  runtimeScene.getLayer("Descripcion").show(true); }, 1000);
-};
-gdjs.NewSceneCode.eventsList11 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.userFunc0x8bc048(runtimeScene);
-
-}
-
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8655316);
-}
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
-}}
-
-}
-
-
-};gdjs.NewSceneCode.eventsList12 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.NewSceneCode.GDcalendulaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("silueta33"), gdjs.NewSceneCode.GDsilueta33Objects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcalendulaObjects1Objects, gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsilueta33Objects1Objects, false, runtimeScene, false);
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.NewSceneCode.GDcalendulaObjects1 */
-gdjs.copyArray(runtimeScene.getObjects("descripcionPlanta"), gdjs.NewSceneCode.GDdescripcionPlantaObjects1);
-gdjs.copyArray(runtimeScene.getObjects("plantaMostrar"), gdjs.NewSceneCode.GDplantaMostrarObjects1);
-/* Reuse gdjs.NewSceneCode.GDsilueta33Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.NewSceneCode.GDtituloObjects1);
-{for(var i = 0, len = gdjs.NewSceneCode.GDcalendulaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDcalendulaObjects1[i].setPosition((( gdjs.NewSceneCode.GDsilueta33Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta33Objects1[0].getPointX("")),(( gdjs.NewSceneCode.GDsilueta33Objects1.length === 0 ) ? 0 :gdjs.NewSceneCode.GDsilueta33Objects1[0].getPointY("")));
-}
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "guitarra.mp3", 1, false, 100, 1);
-}{for(var i = 0, len = gdjs.NewSceneCode.GDcalendulaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDcalendulaObjects1[i].activateBehavior("Draggable", false);
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDtituloObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtituloObjects1[i].setString("Caléndula");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDdescripcionPlantaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDdescripcionPlantaObjects1[i].setString("Tiene propiedades antisépticas y de cicatrización, ayuda con los problemas estomacales.");
-}
-}{for(var i = 0, len = gdjs.NewSceneCode.GDplantaMostrarObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDplantaMostrarObjects1[i].setAnimationName("calendula");
-}
-}
-{ //Subevents
 gdjs.NewSceneCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});gdjs.NewSceneCode.userFunc0x8b3f08 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList13 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("llanten"), gdjs.NewSceneCode.GDllantenObjects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDllantenObjects2.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDllantenObjects2[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDllantenObjects2[k] = gdjs.NewSceneCode.GDllantenObjects2[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDllantenObjects2.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("albahaca"), gdjs.NewSceneCode.GDalbahacaObjects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDalbahacaObjects2.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDalbahacaObjects2[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDalbahacaObjects2[k] = gdjs.NewSceneCode.GDalbahacaObjects2[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDalbahacaObjects2.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList4(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("eucalipto"), gdjs.NewSceneCode.GDeucaliptoObjects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDeucaliptoObjects2.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDeucaliptoObjects2[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDeucaliptoObjects2[k] = gdjs.NewSceneCode.GDeucaliptoObjects2[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDeucaliptoObjects2.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList6(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("manzanilla"), gdjs.NewSceneCode.GDmanzanillaObjects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDmanzanillaObjects2.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDmanzanillaObjects2[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDmanzanillaObjects2[k] = gdjs.NewSceneCode.GDmanzanillaObjects2[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDmanzanillaObjects2.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList8(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("calendula"), gdjs.NewSceneCode.GDcalendulaObjects2);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDcalendulaObjects2.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDcalendulaObjects2[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDcalendulaObjects2[k] = gdjs.NewSceneCode.GDcalendulaObjects2[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDcalendulaObjects2.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList10(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("sauco"), gdjs.NewSceneCode.GDsaucoObjects1);
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDsaucoObjects1.length;i<l;++i) {
+    if ( gdjs.NewSceneCode.GDsaucoObjects1[i].getBehavior("Draggable").isDragged() ) {
+        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
+        gdjs.NewSceneCode.GDsaucoObjects1[k] = gdjs.NewSceneCode.GDsaucoObjects1[i];
+        ++k;
+    }
+}
+gdjs.NewSceneCode.GDsaucoObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList12(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
+gdjs.NewSceneCode.userFunc0x856ec0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 //document.location="https://museotaminango.com/portal-ninos";
 runtimeScene.getLayer("Juegos").show(true);
 runtimeScene.getLayer("UI").show(false);
 };
-gdjs.NewSceneCode.eventsList13 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList14 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8b3f08(runtimeScene);
+gdjs.NewSceneCode.userFunc0x856ec0(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList14 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -630,7 +779,7 @@ gdjs.NewSceneCode.userFunc0x8b3f08(runtimeScene);
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8660020);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8900436);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnewgame_95buttonObjects2, gdjs.NewSceneCode.GDnewgame_95buttonObjects3);
@@ -653,13 +802,14 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "sounds\\pop.ogg", 1, false, 100, 1);
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList13(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});gdjs.NewSceneCode.eventsList15 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
+gdjs.NewSceneCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -667,7 +817,7 @@ gdjs.NewSceneCode.eventsList13(runtimeScene);} //End of subevents
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8662492);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8902764);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnewgame_95buttonObjects2 */
@@ -679,7 +829,8 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});gdjs.NewSceneCode.eventsList16 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects2});
+gdjs.NewSceneCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -687,7 +838,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8663884);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8903172);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnext_95buttonObjects2, gdjs.NewSceneCode.GDnext_95buttonObjects3);
@@ -715,7 +866,8 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects1Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects1});gdjs.NewSceneCode.eventsList17 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnext_9595buttonObjects1Objects = Hashtable.newFrom({"next_button": gdjs.NewSceneCode.GDnext_95buttonObjects1});
+gdjs.NewSceneCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -723,7 +875,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8666244);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8906212);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnext_95buttonObjects1 */
@@ -735,7 +887,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }
 
 
-};gdjs.NewSceneCode.eventsList18 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -743,7 +895,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8656468);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8897540);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("newgame_button"), gdjs.NewSceneCode.GDnewgame_95buttonObjects2);
@@ -785,7 +937,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -801,7 +953,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList16(runtimeScene);} //End of subevents
 }
 
 }
@@ -817,7 +969,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 }
@@ -833,28 +985,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList17(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects2Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects1Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects1});gdjs.NewSceneCode.userFunc0x8cc068 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects2Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDcerrarObjects1Objects = Hashtable.newFrom({"cerrar": gdjs.NewSceneCode.GDcerrarObjects1});
+gdjs.NewSceneCode.userFunc0x85e798 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("UI").show(true); }, 500);
 };
-gdjs.NewSceneCode.eventsList19 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList20 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8cc068(runtimeScene);
+gdjs.NewSceneCode.userFunc0x85e798(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList20 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList21 = function(runtimeScene) {
 
 {
 
@@ -866,7 +1020,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNum
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8670980);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8911300);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -875,24 +1029,6 @@ gdjs.copyArray(runtimeScene.getObjects("ui_background"), gdjs.NewSceneCode.GDui_
 }{for(var i = 0, len = gdjs.NewSceneCode.GDui_95backgroundObjects1.length ;i < len;++i) {
     gdjs.NewSceneCode.GDui_95backgroundObjects1[i].setOpacity(0);
 }
-}
-{ //Subevents
-gdjs.NewSceneCode.eventsList19(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.NewSceneCode.eventsList21 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.camera.hideLayer(runtimeScene, "Descripcion");
 }
 { //Subevents
 gdjs.NewSceneCode.eventsList20(runtimeScene);} //End of subevents
@@ -908,9 +1044,31 @@ gdjs.NewSceneCode.eventsList20(runtimeScene);} //End of subevents
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "Descripcion");
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList21(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.eventsList23 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
 gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
+gdjs.copyArray(runtimeScene.getObjects("sauco"), gdjs.NewSceneCode.GDsaucoObjects2);
+{for(var i = 0, len = gdjs.NewSceneCode.GDsaucoObjects2.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDsaucoObjects2[i].activateBehavior("Draggable", false);
+}
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }}
 
 }
@@ -948,13 +1106,14 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList21(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList22(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.userFunc0x8fb668 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.userFunc0x876028 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 var element = runtimeScene.getGame().getVariables().get("sonidoHabilitado");
@@ -974,31 +1133,12 @@ else{
 }
 }
 };
-gdjs.NewSceneCode.eventsList23 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList24 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8fb668(runtimeScene);
-
-}
-
-
-};gdjs.NewSceneCode.eventsList24 = function(runtimeScene) {
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8674028);
-}
-}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList23(runtimeScene);} //End of subevents
-}
+gdjs.NewSceneCode.userFunc0x876028(runtimeScene);
 
 }
 
@@ -1010,7 +1150,9 @@ gdjs.NewSceneCode.eventsList23(runtimeScene);} //End of subevents
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8913716);
+}
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
@@ -1020,22 +1162,41 @@ gdjs.NewSceneCode.eventsList24(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});gdjs.NewSceneCode.userFunc0x8c16a8 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList26 = function(runtimeScene) {
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.NewSceneCode.eventsList25(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
+gdjs.NewSceneCode.userFunc0x7d88c8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/plantasMedicinales/";
 };
-gdjs.NewSceneCode.eventsList26 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList27 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8c16a8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7d88c8(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList27 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList28 = function(runtimeScene) {
 
 {
 
@@ -1046,28 +1207,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList26(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList27(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x8ad3c8 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x85ff40 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/tecnicasArtesanales/";
 };
-gdjs.NewSceneCode.eventsList28 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList29 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8ad3c8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x85ff40(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList29 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList30 = function(runtimeScene) {
 
 {
 
@@ -1078,28 +1241,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList28(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList29(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.userFunc0x8f0d60 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x852708 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/juegosTradicionales/";
 };
-gdjs.NewSceneCode.eventsList30 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList31 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8f0d60(runtimeScene);
+gdjs.NewSceneCode.userFunc0x852708(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList31 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList32 = function(runtimeScene) {
 
 {
 
@@ -1110,28 +1275,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList30(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.userFunc0x8c9e30 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x753dc8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/aventuraInti/";
 };
-gdjs.NewSceneCode.eventsList32 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList33 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8c9e30(runtimeScene);
+gdjs.NewSceneCode.userFunc0x753dc8(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList33 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList34 = function(runtimeScene) {
 
 {
 
@@ -1142,28 +1309,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList32(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.userFunc0x8ff038 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x7649e0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/sonidoCorrecto/";
 };
-gdjs.NewSceneCode.eventsList34 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList35 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8ff038(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7649e0(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList35 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList36 = function(runtimeScene) {
 
 {
 
@@ -1174,28 +1343,30 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList34(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList35(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});gdjs.NewSceneCode.userFunc0x8caa58 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});
+gdjs.NewSceneCode.userFunc0x7d8d70 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/ahorcado/";
 };
-gdjs.NewSceneCode.eventsList36 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList37 = function(runtimeScene) {
 
 {
 
 
-gdjs.NewSceneCode.userFunc0x8caa58(runtimeScene);
+gdjs.NewSceneCode.userFunc0x7d8d70(runtimeScene);
 
 }
 
 
-};gdjs.NewSceneCode.eventsList37 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList38 = function(runtimeScene) {
 
 {
 
@@ -1206,13 +1377,14 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList36(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList37(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});gdjs.NewSceneCode.eventsList38 = function(runtimeScene) {
+};gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects1Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects1});
+gdjs.NewSceneCode.eventsList39 = function(runtimeScene) {
 
 {
 
@@ -1228,7 +1400,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList27(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList28(runtimeScene);} //End of subevents
 }
 
 }
@@ -1261,11 +1433,11 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.28, 0.28, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.29, 0.29, "linear", 200, false, true);
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList29(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList30(runtimeScene);} //End of subevents
 }
 
 }
@@ -1281,7 +1453,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.25, 0.25, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDtecnicasArtesanalesPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.27, 0.27, "linear", 200, false, true);
 }
 }}
 
@@ -1302,7 +1474,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList31(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList32(runtimeScene);} //End of subevents
 }
 
 }
@@ -1339,7 +1511,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList33(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList34(runtimeScene);} //End of subevents
 }
 
 }
@@ -1372,11 +1544,11 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.30, 0.30, "linear", 200, false, true);
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList35(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList36(runtimeScene);} //End of subevents
 }
 
 }
@@ -1392,7 +1564,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.28, 0.28, "linear", 200, false, true);
 }
 }}
 
@@ -1409,11 +1581,11 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects2 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects2.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.23, 0.23, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects2[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.30, 0.30, "linear", 200, false, true);
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList37(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList38(runtimeScene);} //End of subevents
 }
 
 }
@@ -1429,14 +1601,14 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDahorcadoPortadaObjects1 */
 {for(var i = 0, len = gdjs.NewSceneCode.GDahorcadoPortadaObjects1.length ;i < len;++i) {
-    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.21, 0.21, "linear", 200, false, true);
+    gdjs.NewSceneCode.GDahorcadoPortadaObjects1[i].getBehavior("Tween").addObjectScaleTween("Scale", 0.28, 0.28, "linear", 200, false, true);
 }
 }}
 
 }
 
 
-};gdjs.NewSceneCode.eventsList39 = function(runtimeScene) {
+};gdjs.NewSceneCode.eventsList40 = function(runtimeScene) {
 
 {
 
@@ -1462,131 +1634,29 @@ gdjs.NewSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("llanten"), gdjs.NewSceneCode.GDllantenObjects1);
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDllantenObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDllantenObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDllantenObjects1[k] = gdjs.NewSceneCode.GDllantenObjects1[i];
-        ++k;
-    }
+{gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
+gdjs.NewSceneCode.condition0IsTrue_1.val = false;
+gdjs.NewSceneCode.condition1IsTrue_1.val = false;
+gdjs.NewSceneCode.condition2IsTrue_1.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_1.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Descripcion"));
+}if ( gdjs.NewSceneCode.condition0IsTrue_1.val ) {
+{
+gdjs.NewSceneCode.condition1IsTrue_1.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Juegos"));
+}if ( gdjs.NewSceneCode.condition1IsTrue_1.val ) {
+{
+gdjs.NewSceneCode.condition2IsTrue_1.val = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UI"));
+}}
 }
-gdjs.NewSceneCode.GDllantenObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
+gdjs.NewSceneCode.conditionTrue_1.val = true && gdjs.NewSceneCode.condition0IsTrue_1.val && gdjs.NewSceneCode.condition1IsTrue_1.val && gdjs.NewSceneCode.condition2IsTrue_1.val;
+}
+}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList2(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("sauco"), gdjs.NewSceneCode.GDsaucoObjects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDsaucoObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDsaucoObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDsaucoObjects1[k] = gdjs.NewSceneCode.GDsaucoObjects1[i];
-        ++k;
-    }
-}
-gdjs.NewSceneCode.GDsaucoObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList4(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("albahaca"), gdjs.NewSceneCode.GDalbahacaObjects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDalbahacaObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDalbahacaObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDalbahacaObjects1[k] = gdjs.NewSceneCode.GDalbahacaObjects1[i];
-        ++k;
-    }
-}
-gdjs.NewSceneCode.GDalbahacaObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList6(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("eucalipto"), gdjs.NewSceneCode.GDeucaliptoObjects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDeucaliptoObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDeucaliptoObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDeucaliptoObjects1[k] = gdjs.NewSceneCode.GDeucaliptoObjects1[i];
-        ++k;
-    }
-}
-gdjs.NewSceneCode.GDeucaliptoObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList8(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("manzanilla"), gdjs.NewSceneCode.GDmanzanillaObjects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDmanzanillaObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDmanzanillaObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDmanzanillaObjects1[k] = gdjs.NewSceneCode.GDmanzanillaObjects1[i];
-        ++k;
-    }
-}
-gdjs.NewSceneCode.GDmanzanillaObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList10(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("calendula"), gdjs.NewSceneCode.GDcalendulaObjects1);
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDcalendulaObjects1.length;i<l;++i) {
-    if ( gdjs.NewSceneCode.GDcalendulaObjects1[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.NewSceneCode.condition0IsTrue_0.val = true;
-        gdjs.NewSceneCode.GDcalendulaObjects1[k] = gdjs.NewSceneCode.GDcalendulaObjects1[i];
-        ++k;
-    }
-}
-gdjs.NewSceneCode.GDcalendulaObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.NewSceneCode.eventsList12(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
@@ -1601,7 +1671,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(r
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList18(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList19(runtimeScene);} //End of subevents
 }
 
 }
@@ -1629,7 +1699,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(r
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList22(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList23(runtimeScene);} //End of subevents
 }
 
 }
@@ -1649,7 +1719,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList25(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList26(runtimeScene);} //End of subevents
 }
 
 }
@@ -1681,7 +1751,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.camera.layerIsVisible(r
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList38(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList39(runtimeScene);} //End of subevents
 }
 
 }
@@ -1849,7 +1919,7 @@ gdjs.NewSceneCode.GDplantaMostrarObjects2.length = 0;
 gdjs.NewSceneCode.GDplantaMostrarObjects3.length = 0;
 gdjs.NewSceneCode.GDplantaMostrarObjects4.length = 0;
 
-gdjs.NewSceneCode.eventsList39(runtimeScene);
+gdjs.NewSceneCode.eventsList40(runtimeScene);
 return;
 
 }
