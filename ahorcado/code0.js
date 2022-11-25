@@ -119,7 +119,7 @@ gdjs.RompecabezasCode.eventsList0 = function(runtimeScene) {
 
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.RompecabezasCode.GDsonidoObjects1});
-gdjs.RompecabezasCode.userFunc0x7417c0 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x7411a8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 var element = runtimeScene.getGame().getVariables().get("sonidoHabilitado");
@@ -144,7 +144,7 @@ gdjs.RompecabezasCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x7417c0(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x7411a8(runtimeScene);
 
 }
 
@@ -570,7 +570,7 @@ gdjs.RompecabezasCode.eventsList11(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.eventsList13 = function(runtimeScene) {
 
-};gdjs.RompecabezasCode.userFunc0x870ff8 = function(runtimeScene) {
+};gdjs.RompecabezasCode.userFunc0x874c18 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 setTimeout(() => {  runtimeScene.getLayer("UI").show(true); }, 1000);
@@ -580,7 +580,7 @@ gdjs.RompecabezasCode.eventsList14 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x870ff8(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x874c18(runtimeScene);
 
 }
 
@@ -646,7 +646,7 @@ gdjs.RompecabezasCode.eventsList14(runtimeScene);} //End of subevents
 
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.RompecabezasCode.GDplantasMedicinalesPortadaObjects2});
-gdjs.RompecabezasCode.userFunc0x86d8a0 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x871060 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/plantasMedicinales/";
@@ -656,7 +656,7 @@ gdjs.RompecabezasCode.eventsList16 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x86d8a0(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x871060(runtimeScene);
 
 }
 
@@ -680,7 +680,7 @@ gdjs.RompecabezasCode.eventsList16(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.RompecabezasCode.GDplantasMedicinalesPortadaObjects2});
 gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.RompecabezasCode.GDtecnicasArtesanalesPortadaObjects2});
-gdjs.RompecabezasCode.userFunc0x8895e0 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x754408 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/tecnicasArtesanales/";
@@ -690,7 +690,7 @@ gdjs.RompecabezasCode.eventsList18 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x8895e0(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x754408(runtimeScene);
 
 }
 
@@ -714,7 +714,7 @@ gdjs.RompecabezasCode.eventsList18(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDtecnicasArtesanalesPortadaObjects2Objects = Hashtable.newFrom({"tecnicasArtesanalesPortada": gdjs.RompecabezasCode.GDtecnicasArtesanalesPortadaObjects2});
 gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.RompecabezasCode.GDjuegosTradicionalesPortadaObjects2});
-gdjs.RompecabezasCode.userFunc0x8b9a38 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x8b99c8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/juegosTradicionales/";
@@ -724,7 +724,7 @@ gdjs.RompecabezasCode.eventsList20 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x8b9a38(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x8b99c8(runtimeScene);
 
 }
 
@@ -748,7 +748,7 @@ gdjs.RompecabezasCode.eventsList20(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.RompecabezasCode.GDjuegosTradicionalesPortadaObjects2});
 gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.RompecabezasCode.GDaventuraIntiPortadaObjects2});
-gdjs.RompecabezasCode.userFunc0x89c438 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x89c3c8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/aventuraInti/";
@@ -758,7 +758,7 @@ gdjs.RompecabezasCode.eventsList22 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x89c438(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x89c3c8(runtimeScene);
 
 }
 
@@ -782,7 +782,7 @@ gdjs.RompecabezasCode.eventsList22(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.RompecabezasCode.GDaventuraIntiPortadaObjects2});
 gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.RompecabezasCode.GDsonidoCorrectoPortadaObjects2});
-gdjs.RompecabezasCode.userFunc0x7f6548 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x766ff8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/sonidoCorrecto/";
@@ -792,7 +792,7 @@ gdjs.RompecabezasCode.eventsList24 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x7f6548(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x766ff8(runtimeScene);
 
 }
 
@@ -816,7 +816,7 @@ gdjs.RompecabezasCode.eventsList24(runtimeScene);} //End of subevents
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.RompecabezasCode.GDsonidoCorrectoPortadaObjects2});
 gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.RompecabezasCode.GDvestirNapangaObjects2});
-gdjs.RompecabezasCode.userFunc0x8c9f60 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x7547c8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/vestirNapanga/";
@@ -826,7 +826,7 @@ gdjs.RompecabezasCode.eventsList26 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x8c9f60(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x7547c8(runtimeScene);
 
 }
 
@@ -1074,7 +1074,7 @@ gdjs.RompecabezasCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObjec
 
 
 };gdjs.RompecabezasCode.mapOfGDgdjs_46RompecabezasCode_46GDnext_9595buttonObjects2Objects = Hashtable.newFrom({"next_button": gdjs.RompecabezasCode.GDnext_95buttonObjects2});
-gdjs.RompecabezasCode.userFunc0x8661c0 = function(runtimeScene) {
+gdjs.RompecabezasCode.userFunc0x878ec0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 //document.location="https://museotaminango.com/portal-ninos";
@@ -1086,7 +1086,7 @@ gdjs.RompecabezasCode.eventsList29 = function(runtimeScene) {
 {
 
 
-gdjs.RompecabezasCode.userFunc0x8661c0(runtimeScene);
+gdjs.RompecabezasCode.userFunc0x878ec0(runtimeScene);
 
 }
 

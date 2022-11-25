@@ -2659,7 +2659,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDnewgame_9595buttonObjects2Objects = Hashtable.newFrom({"newgame_button": gdjs.NewSceneCode.GDnewgame_95buttonObjects2});
-gdjs.NewSceneCode.userFunc0x83dbe8 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x83deb0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 runtimeScene.getLayer("Juegos").show(true);
@@ -2670,7 +2670,7 @@ gdjs.NewSceneCode.eventsList18 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x83dbe8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x83deb0(runtimeScene);
 
 }
 
@@ -3047,7 +3047,7 @@ gdjs.NewSceneCode.eventsList25(runtimeScene);} //End of subevents
 
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
-gdjs.NewSceneCode.userFunc0x8b12c0 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x8baa58 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/vestirNapanga/";
@@ -3057,7 +3057,7 @@ gdjs.NewSceneCode.eventsList27 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8b12c0(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8baa58(runtimeScene);
 
 }
 
@@ -3081,7 +3081,7 @@ gdjs.NewSceneCode.eventsList27(runtimeScene);} //End of subevents
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDvestirNapangaObjects2Objects = Hashtable.newFrom({"vestirNapanga": gdjs.NewSceneCode.GDvestirNapangaObjects2});
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
-gdjs.NewSceneCode.userFunc0x8bafe8 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x8bb2a8 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/plantasMedicinales/";
@@ -3091,7 +3091,7 @@ gdjs.NewSceneCode.eventsList29 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8bafe8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8bb2a8(runtimeScene);
 
 }
 
@@ -3115,7 +3115,7 @@ gdjs.NewSceneCode.eventsList29(runtimeScene);} //End of subevents
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDplantasMedicinalesPortadaObjects2Objects = Hashtable.newFrom({"plantasMedicinalesPortada": gdjs.NewSceneCode.GDplantasMedicinalesPortadaObjects2});
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
-gdjs.NewSceneCode.userFunc0x8cccd8 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x8ccef0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/juegosTradicionales/";
@@ -3125,7 +3125,7 @@ gdjs.NewSceneCode.eventsList31 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8cccd8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8ccef0(runtimeScene);
 
 }
 
@@ -3149,7 +3149,7 @@ gdjs.NewSceneCode.eventsList31(runtimeScene);} //End of subevents
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDjuegosTradicionalesPortadaObjects2Objects = Hashtable.newFrom({"juegosTradicionalesPortada": gdjs.NewSceneCode.GDjuegosTradicionalesPortadaObjects2});
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
-gdjs.NewSceneCode.userFunc0x8c21a0 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x8c2460 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/aventuraInti/";
@@ -3159,7 +3159,7 @@ gdjs.NewSceneCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8c21a0(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8c2460(runtimeScene);
 
 }
 
@@ -3183,7 +3183,7 @@ gdjs.NewSceneCode.eventsList33(runtimeScene);} //End of subevents
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDaventuraIntiPortadaObjects2Objects = Hashtable.newFrom({"aventuraIntiPortada": gdjs.NewSceneCode.GDaventuraIntiPortadaObjects2});
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
-gdjs.NewSceneCode.userFunc0x8b0210 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x8b04d0 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/sonidoCorrecto/";
@@ -3193,7 +3193,7 @@ gdjs.NewSceneCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8b0210(runtimeScene);
+gdjs.NewSceneCode.userFunc0x8b04d0(runtimeScene);
 
 }
 
@@ -3217,7 +3217,7 @@ gdjs.NewSceneCode.eventsList35(runtimeScene);} //End of subevents
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoCorrectoPortadaObjects2Objects = Hashtable.newFrom({"sonidoCorrectoPortada": gdjs.NewSceneCode.GDsonidoCorrectoPortadaObjects2});
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDahorcadoPortadaObjects2Objects = Hashtable.newFrom({"ahorcadoPortada": gdjs.NewSceneCode.GDahorcadoPortadaObjects2});
-gdjs.NewSceneCode.userFunc0x8b0a88 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x848740 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 document.location="https://museotaminango.com/juegos/ahorcado/";
@@ -3227,7 +3227,7 @@ gdjs.NewSceneCode.eventsList37 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x8b0a88(runtimeScene);
+gdjs.NewSceneCode.userFunc0x848740(runtimeScene);
 
 }
 
@@ -3475,7 +3475,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 
 
 };gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDsonidoObjects1Objects = Hashtable.newFrom({"sonido": gdjs.NewSceneCode.GDsonidoObjects1});
-gdjs.NewSceneCode.userFunc0x849fe8 = function(runtimeScene) {
+gdjs.NewSceneCode.userFunc0x849830 = function(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 var element = runtimeScene.getGame().getVariables().get("sonidoHabilitado");
@@ -3500,7 +3500,7 @@ gdjs.NewSceneCode.eventsList40 = function(runtimeScene) {
 {
 
 
-gdjs.NewSceneCode.userFunc0x849fe8(runtimeScene);
+gdjs.NewSceneCode.userFunc0x849830(runtimeScene);
 
 }
 
